@@ -32,6 +32,7 @@ function prime(n){
         return `${n} Bukan angka prima`;
     } else if ( n == 2){
         return `${n} Adalah angka prima`;
+
     } else if ( n % 2 == 0 || n % 3 == 0){
         return `${n} Bukan angka prima`;
     } else {
@@ -76,15 +77,3 @@ function fibonnaciNumber(n){
 }
 
 console.log(fibonnaciNumber(10));
-
-
-// let a = [0,1];
-// let r = a[0] + a[1];
-// a.push(r);
-// console.log(a);
-// let p1 = a.length - 2;
-// let p2 = a.length - 1;
-// let result = a[p1] + a[p2];
-// a.push(result);
-// console.log(a);
-
